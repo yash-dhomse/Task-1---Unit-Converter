@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <b><title>Unit Converter</title></b>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <ul>
+    <p class="top-txt"> <i>Enter a value in any of the fields to convert between Length measurements: </i></p>
+    <div class="container">
+        <p><b><h1>Unit Converter</h1></b></p>
+        <hr>
+        <div class="inputContainer">
+            <label for="feet"><li>Feet</li></label><input type="number" name="" id="feet"  oninput="convertToOthers('feet',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="meter"><li>Meters</li></label><input type="number" name="" id="meter" oninput="convertToOthers('meter',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="inches"><li>Inches</li></label><input type="number" name="" id="inches" oninput="convertToOthers('inch',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="cm"><li>CM</li></label><input type="number" name="" id="cm" oninput="convertToOthers('cm',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="yards"><li>Yards</li></label><input type="number" name="" id="yards" oninput="convertToOthers('yard',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="km"><li>Kilometers</li></label><input type="number" name="" id="km" oninput="convertToOthers('km',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="miles"><li>Miles</li></label><input type="number" name="" id="miles" oninput="convertToOthers('mile',this.value)">
+        </div>
+        <div class="name">
+            
+            <label for="name"> <b>© Abhishek Gore </b></label>
+        </div>
+    </ul>
+    </div>        
+    <script src="script.js"></script>
+</body>
+</main>
+</html>
